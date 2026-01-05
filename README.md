@@ -31,9 +31,9 @@ This project processes multi-source data from Energy Prices, Weather Forecasts, 
 - **Monitoring**: Integrated logging and a step-execution report ensure full visibility into the health of the ETL process.
 
 ## Repository Structure
-  - nb_logging: Centralized logging utility to track pipeline execution and errors.
-  - nb_config: Centralized configuration for source paths, sink directories, and join logic.
-  - nb_functions: Library of reusable PySpark functions (flattening, hashing, and loading).
-  - nb_generic_bronze_to_silver: The core transformation engine that standardizes raw JSON into Delta tables.
-  - nb_process_silver_to_gold: The analytics and integration notebook that calculates scores and joins all sources.
-  - SmartCity_Analysis.pbix: The final Power BI report file.
+  - **nb_logging**: Centralized logging utility to track pipeline execution and errors.
+  - **nb_config**: Centralized configuration for source paths, sink directories, and join logic.
+  - **nb_functions**: Library of reusable PySpark functions (flattening, hashing, and loading).
+  - **nb_generic_bronze_to_silver**: The core transformation engine that standardizes raw JSON into Delta tables.
+  - **nb_process_silver_to_gold**: The analytics and integration notebook that calculates scores and joins all sources.
+  - **SmartCity_Analysis.pbix**: The final Power BI report file.
