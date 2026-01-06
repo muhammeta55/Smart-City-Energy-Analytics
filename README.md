@@ -4,7 +4,7 @@
 This project processes multi-source data from Energy Prices, Weather Forecasts, and Air Quality Sensors to identify "Golden Hours"—the specific times when electricity is both cost-effective and environmentally friendly. Using PySpark and Microsoft Fabric, the data is transformed through a Medallion Architecture to drive a custom Decision Support Dashboard.
 
 ## Architecture & Logic
-![Dashboard Preview](Data Architecture.png)
+![Dashboard Preview](data_architecture.png)
 *This is my Smart City Monitoring System - Medallion Data Architecture.*
 
 - **Bronze Layer (Raw Ingestion)**
